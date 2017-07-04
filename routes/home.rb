@@ -6,6 +6,6 @@
 #      => deadlineController.buildDeadlineCalendar( userTasks, availableTasks )
 
 
-get '/' do
+get '/home/' do
   'HOME'
 end
