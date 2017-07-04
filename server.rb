@@ -6,7 +6,7 @@ Bundler.require(:default)
 require "./app/models/User"
 
 configure do
-  Mongoid.load!("./app/config/dbconfig.yml")
+  Mongoid.load!("./app/config/mongoid.yml", :development )
 end
 
 #document root
