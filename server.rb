@@ -9,6 +9,15 @@ configure do
   Mongoid.load!("./app/config/dbconfig.yml")
 end
 
+#document root
 get '/' do
-  'ASDASD'
+  'PAGE RACINE'
+end
+
+get '/login' do
+  'PAGE LOGIN'
+end
+
+post '/login/auth' do
+  'LOGIN AUTH MODULE'
 end
